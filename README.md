@@ -5,7 +5,7 @@ You can use it in simple manner:
 ```c++
 #include <Button.h>
 Button upButton = Button(32); //where 32 is pin, button connected to
-upButton.getState(); 
+upButton.processState(); 
 ```
 * 0 - button is released
 * 1 - button was in short press
